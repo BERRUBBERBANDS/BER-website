@@ -44,12 +44,16 @@ body {
   justify-content: space-between;
 }
 
-.logo, footer strong {
-  color: var(--text);
-  font-size: 1.7rem;
-  font-weight: 900;
-  letter-spacing: -1px;
+.logo {
+  display: inline-flex;
+  align-items: center;
   text-decoration: none;
+}
+
+.logo img {
+  width: 105px;
+  height: auto;
+  display: block;
 }
 
 .logo span, footer span { color: var(--accent); }
